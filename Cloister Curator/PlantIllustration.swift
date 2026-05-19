@@ -19,6 +19,7 @@ struct PlantIllustration: View {
             .position(x: proxy.size.width / 2, y: proxy.size.height / 2)
         }
         .frame(width: size, height: size)
+        .clipped()
     }
 
     @ViewBuilder
