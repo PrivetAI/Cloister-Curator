@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* CloisterCuratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* CloisterCuratorApp.swift */; };
+		A1000002 /* CloisterWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* CloisterWebPanel.swift */; };
+		A1000003 /* CloisterLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* CloisterLoadingScreen.swift */; };
+		A1000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* ContentView.swift */; };
+		A1000005 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* Theme.swift */; };
+		A1000006 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* CustomShapes.swift */; };
+		A1000007 /* PlantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* PlantModels.swift */; };
+		A1000008 /* SpeciesCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* SpeciesCatalog.swift */; };
+		A1000009 /* HybridSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* HybridSystem.swift */; };
+		A1000010 /* VisitorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* VisitorSystem.swift */; };
+		A1000011 /* QuestSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000011 /* QuestSystem.swift */; };
+		A1000012 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000012 /* GameState.swift */; };
+		A1000013 /* PlantIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000013 /* PlantIllustration.swift */; };
+		A1000014 /* CloisterYardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* CloisterYardView.swift */; };
+		A1000015 /* CrossingChamberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000015 /* CrossingChamberView.swift */; };
+		A1000016 /* HerbariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000016 /* HerbariumView.swift */; };
+		A1000017 /* VisitorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000017 /* VisitorsView.swift */; };
+		A1000018 /* AlmanacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000018 /* AlmanacView.swift */; };
+		A1000019 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000019 /* SettingsView.swift */; };
+		A1000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000020 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000001 /* CloisterCuratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloisterCuratorApp.swift; sourceTree = "<group>"; };
+		B1000002 /* CloisterWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloisterWebPanel.swift; sourceTree = "<group>"; };
+		B1000003 /* CloisterLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloisterLoadingScreen.swift; sourceTree = "<group>"; };
+		B1000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1000005 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B1000006 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		B1000007 /* PlantModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModels.swift; sourceTree = "<group>"; };
+		B1000008 /* SpeciesCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesCatalog.swift; sourceTree = "<group>"; };
+		B1000009 /* HybridSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridSystem.swift; sourceTree = "<group>"; };
+		B1000010 /* VisitorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorSystem.swift; sourceTree = "<group>"; };
+		B1000011 /* QuestSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestSystem.swift; sourceTree = "<group>"; };
+		B1000012 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		B1000013 /* PlantIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIllustration.swift; sourceTree = "<group>"; };
+		B1000014 /* CloisterYardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloisterYardView.swift; sourceTree = "<group>"; };
+		B1000015 /* CrossingChamberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingChamberView.swift; sourceTree = "<group>"; };
+		B1000016 /* HerbariumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbariumView.swift; sourceTree = "<group>"; };
+		B1000017 /* VisitorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorsView.swift; sourceTree = "<group>"; };
+		B1000018 /* AlmanacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmanacView.swift; sourceTree = "<group>"; };
+		B1000019 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1000001 /* Cloister Curator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloister Curator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G1000001 = {
+			isa = PBXGroup;
+			children = (
+				G1000002 /* Cloister Curator */,
+				G1000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G1000002 /* Cloister Curator */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* CloisterCuratorApp.swift */,
+				B1000002 /* CloisterWebPanel.swift */,
+				B1000003 /* CloisterLoadingScreen.swift */,
+				B1000004 /* ContentView.swift */,
+				B1000005 /* Theme.swift */,
+				B1000006 /* CustomShapes.swift */,
+				B1000007 /* PlantModels.swift */,
+				B1000008 /* SpeciesCatalog.swift */,
+				B1000009 /* HybridSystem.swift */,
+				B1000010 /* VisitorSystem.swift */,
+				B1000011 /* QuestSystem.swift */,
+				B1000012 /* GameState.swift */,
+				B1000013 /* PlantIllustration.swift */,
+				B1000014 /* CloisterYardView.swift */,
+				B1000015 /* CrossingChamberView.swift */,
+				B1000016 /* HerbariumView.swift */,
+				B1000017 /* VisitorsView.swift */,
+				B1000018 /* AlmanacView.swift */,
+				B1000019 /* SettingsView.swift */,
+				B1000020 /* Assets.xcassets */,
+				B1000021 /* Info.plist */,
+			);
+			path = "Cloister Curator";
+			sourceTree = "<group>";
+		};
+		G1000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* Cloister Curator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T1000001 /* Cloister Curator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = L1000001 /* Build configuration list for PBXNativeTarget "Cloister Curator" */;
+			buildPhases = (
+				P1000001 /* Sources */,
+				F1000001 /* Frameworks */,
+				R1000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloister Curator";
+			productName = "Cloister Curator";
+			productReference = C1000001 /* Cloister Curator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT_OBJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					T1000001 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = L1000002 /* Build configuration list for PBXProject "Cloister Curator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G1000001;
+			productRefGroup = G1000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T1000001 /* Cloister Curator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R1000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* CloisterCuratorApp.swift in Sources */,
+				A1000002 /* CloisterWebPanel.swift in Sources */,
+				A1000003 /* CloisterLoadingScreen.swift in Sources */,
+				A1000004 /* ContentView.swift in Sources */,
+				A1000005 /* Theme.swift in Sources */,
+				A1000006 /* CustomShapes.swift in Sources */,
+				A1000007 /* PlantModels.swift in Sources */,
+				A1000008 /* SpeciesCatalog.swift in Sources */,
+				A1000009 /* HybridSystem.swift in Sources */,
+				A1000010 /* VisitorSystem.swift in Sources */,
+				A1000011 /* QuestSystem.swift in Sources */,
+				A1000012 /* GameState.swift in Sources */,
+				A1000013 /* PlantIllustration.swift in Sources */,
+				A1000014 /* CloisterYardView.swift in Sources */,
+				A1000015 /* CrossingChamberView.swift in Sources */,
+				A1000016 /* HerbariumView.swift in Sources */,
+				A1000017 /* VisitorsView.swift in Sources */,
+				A1000018 /* AlmanacView.swift in Sources */,
+				A1000019 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BUILDCONFIG_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BUILDCONFIG_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		TARGETCONFIG_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Cloister Curator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cloister Curator";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloister.curator;
+				PRODUCT_NAME = "Cloister Curator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		TARGETCONFIG_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Cloister Curator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cloister Curator";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloister.curator;
+				PRODUCT_NAME = "Cloister Curator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		L1000001 /* Build configuration list for PBXNativeTarget "Cloister Curator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TARGETCONFIG_DEBUG /* Debug */,
+				TARGETCONFIG_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		L1000002 /* Build configuration list for PBXProject "Cloister Curator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BUILDCONFIG_DEBUG /* Debug */,
+				BUILDCONFIG_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT_OBJ /* Project object */;
+}
