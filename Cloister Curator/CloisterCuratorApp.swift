@@ -14,7 +14,8 @@ struct CloisterCuratorApp: App {
                 if let ready = cloisterLinkReady {
                     if ready {
                         CloisterWebPanel(urlString: cloisterSourceLink)
-                            .edgesIgnoringSafeArea(.all)
+                            .edgesIgnoringSafeArea(.bottom)
+                            .background(Color.black.ignoresSafeArea())
                     } else {
                         ContentView()
                             .environmentObject(cloisterStore)
